@@ -5,7 +5,7 @@
 		  <view class="UCenter-bg" @click="remove">
 		    <image :src="personalList.avatar" round class="png animation-slide-right margin-bottom-sm" mode="widthFix" :style="[{animationDelay: '0.1s'}]"></image>
 		    <view class="text-xl animation-slide-left" :style="[{animationDelay: '0.2s'}]">
-		       {{personalList.depart}}
+		       {{personalList.realname}}
 		    </view>
 		    <image src="/static/wave.gif" mode="scaleToFill" class="gif-wave"></image>
 		  </view>
@@ -24,7 +24,7 @@
 		  <view class="padding flex text-center text-grey bg-white shadow-warp">
 		    <view class="flex flex-sub flex-direction solid-right animation-slide-top" :style="[{animationDelay: '0.2s'}]">
 		      <view class="text-xl text-orange">{{personalList.username}}</view>
-			  <view class="margin-top-sm"><text class="cuIcon-people"></text> 用户</view>
+			  <view class="margin-top-sm"><text class="cuIcon-people"></text> 账号</view>
 		    </view>
 		    
 		    <view class="flex flex-sub flex-direction animation-slide-top" :style="[{animationDelay: '0.2s'}]">
